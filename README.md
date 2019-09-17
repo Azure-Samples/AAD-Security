@@ -15,9 +15,9 @@ Implements the security best practices for Azure Active Directory
 
 ## Prerequisites
 
-Install .NET Core for Windows by following the instructions at dot.net/core, which will include Visual Studio 2017.
-An Azure Active Directory (Azure AD) tenant. For more information on how to get an Azure AD tenant, see How to get an Azure AD tenant
-A user account in your Azure AD tenant, or a Microsoft personal account
+- Install .NET Core for Windows by following the instructions at [dot.net/core](https://dot.net/core), which will include [Visual Studio 2017](https://aka.ms/vsdownload).
+- An Azure Active Directory (Azure AD) tenant. For more information on how to get an Azure AD tenant, see [How to get an Azure AD tenant](https://docs.microsoft.com/azure/active-directory/develop/quickstart-create-new-tenant)
+- A user account in your Azure AD tenant, or a Microsoft personal account
 
 ## Runnning the sample
 # Setup
@@ -27,17 +27,20 @@ From your shell or command line:
 
 git clone https://github.com/Azure-Samples/microsoft-identity-platform-aspnetcore-webapp-tutorial webapp
 cd webapp
-Given that the name of the sample is pretty long, that it has sub-folders and so are the name of the referenced NuGet pacakges, you might want to clone it in a folder close to the root of your hard drive, to avoid file size limitations on Windows.
+> Given that the name of the sample is pretty long, that it has sub-folders and so are the name of the referenced NuGet pacakges, you might want to clone it in a folder close to the root of your hard drive, to avoid file size limitations on Windows.
 
-We recommend that you start by the first part 1. WebApp signs-in users with Microsoft identity (OIDC) where you will learn how to sign-in users within your own organization
-It's however possible to start at any phase of the tutorial as the full code is provided in each folder.
+- We recommend that you start by the first part [1. WebApp signs-in users with Microsoft identity (OIDC)](1-WebApp-OIDC) where you will learn how to sign-in users within your own organization
+- It's however possible to start at any phase of the tutorial as the full code is provided in each folder.
 
 ## Community Help and Support
-Use Stack Overflow to get support from the community. Ask your questions on Stack Overflow first and browse existing issues to see if someone has asked your question before. Make sure that your questions or comments are tagged with [msal dotnet].
 
-If you find a bug in the sample, please raise the issue on GitHub Issues.
+Use [Stack Overflow](http://stackoverflow.com/questions/tagged/msal) to get support from the community.
+Ask your questions on Stack Overflow first and browse existing issues to see if someone has asked your question before.
+Make sure that your questions or comments are tagged with [`msal` `dotnet`].
 
-To provide a recommendation, visit the following User Voice page.
+If you find a bug in the sample, please raise the issue on [GitHub Issues](../../issues).
+
+To provide a recommendation, visit the following [User Voice page](https://feedback.azure.com/forums/169401-azure-active-directory).
 
 ## Contributing
 
